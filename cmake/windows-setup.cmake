@@ -19,6 +19,7 @@ if(FLB_WINDOWS_DEFAULTS)
   # INPUT plugins
   # =============
   set(FLB_IN_CPU                 No)
+  set(FLB_IN_ISIMA_DISK          No)
   set(FLB_IN_DISK                No)
   set(FLB_IN_EXEC                No)
   set(FLB_IN_FORWARD            Yes)

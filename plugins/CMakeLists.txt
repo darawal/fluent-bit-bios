@@ -160,6 +160,8 @@ REGISTER_CUSTOM_PLUGIN("custom_calyptia")
 # These plugins works only on Linux
 if(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
   REGISTER_IN_PLUGIN("in_cpu")
+  REGISTER_IN_PLUGIN("in_isima_disk")
+  REGISTER_IN_PLUGIN("in_isima_netif")
   REGISTER_IN_PLUGIN("in_mem")
   REGISTER_IN_PLUGIN("in_thermal")
   REGISTER_IN_PLUGIN("in_kmsg")

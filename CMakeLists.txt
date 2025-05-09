@@ -123,6 +123,8 @@ option(FLB_CONFIG_YAML        "Enable YAML config format"    Yes)
 
 # Built-in Plugins
 option(FLB_IN_CPU             "Enable CPU input plugin"             Yes)
+option(FLB_IN_ISIMA_DISK      "Enable isima disk input plugin"      Yes)
+option(FLB_IN_ISIMA_NETIF     "Enable isima netdev input plugin"    Yes)
 option(FLB_IN_THERMAL         "Enable Thermal plugin"               Yes)
 option(FLB_IN_DISK            "Enable Disk input plugin"            Yes)
 option(FLB_IN_DOCKER          "Enable Docker input plugin"          Yes)
@@ -247,6 +249,8 @@ if(FLB_ALL)
 
   # Input plugins
   set(FLB_IN_CPU       1)
+  set(FLB_IN_ISIMA_DISK 1)
+  set(FLB_IN_ISIMA_NETIF 1)
   set(FLB_IN_MEM       1)
   set(FLB_IN_KMSG      1)
   set(FLB_IN_MQTT      1)
